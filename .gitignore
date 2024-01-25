@@ -1,3 +1,5 @@
 node_modules
 webp/*
 image/*
+!image/.gitkeep
+!webp/.gitkeep
