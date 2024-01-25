@@ -10,6 +10,9 @@ const main = () => {
 	if (!fs.existsSync(outputDir)) {
 		fs.mkdirSync(outputDir);
 	}
+	if (!fs.existsSync(inputDir)) {
+		fs.mkdirSync(inputDir);
+	}
 
 	// 讀取輸入目錄下的所有檔案
 	fs.readdir(inputDir, (err, files) => {
